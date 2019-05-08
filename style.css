@@ -1,0 +1,17 @@
+html {
+  margin: 0;
+  padding: 0; }
+  html body {
+    margin: 0;
+    padding: 0; }
+
+header {
+  height: 100px;
+  background-color: black; }
+  header .cas {
+    height: 50px;
+    background-image: url("cheshire-county-hygiene-services.svg");
+    background-repeat: no-repeat; }
+  header ul li {
+    display: inline-block;
+    color: white; }
