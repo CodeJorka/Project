@@ -3,15 +3,133 @@ html {
   padding: 0; }
   html body {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; }
+
+.cas {
+  margin-top: 20px;
+  height: 50px;
+  width: 200px;
+  background-image: url("cheshire-county-hygiene-services.svg");
+  background-repeat: no-repeat; }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%; }
 
 header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 100px;
   background-color: black; }
-  header .cas {
-    height: 50px;
-    background-image: url("cheshire-county-hygiene-services.svg");
-    background-repeat: no-repeat; }
-  header ul li {
+  header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  header li {
     display: inline-block;
-    color: white; }
+    color: white;
+    margin: 20px; }
+
+section {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-image: url("photo-1480714378408-67cf0d13bc1b.png"); }
+  section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 1; }
+  section .h1 {
+    width: 500px;
+    font-size: 25px; }
+    section .h1:after {
+      content: '';
+      width: 70px;
+      height: 3px;
+      background-color: white;
+      display: block;
+      margin-top: 20px;
+      margin-left: 10px; }
+  section:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1C1C1C;
+    opacity: 0.63; }
+  section .half {
+    width: 700px;
+    padding-top: 75px;
+    padding-bottom: 140px; }
+  section .a {
+    height: 200px;
+    width: 400px;
+    background-size: 400px; }
+
+.trial {
+  border-radius: 5px;
+  margin-top: 100px;
+  width: 400px; }
+  .trial .input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.form {
+  padding: 60px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white; }
+  .form input {
+    display: block;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid #D8D8D8;
+    margin-bottom: 30px;
+    height: 20px;
+    width: 300px;
+    font-size: 15px;
+    color: #D8D8D8; }
+    .form input.radio {
+      width: 0px; }
+  .form span {
+    color: black; }
+  .form p {
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 600; }
+
+.hes {
+  background-color: #41D395; }
+  .hes h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+.he {
+  color: #333333;
+  background-color: #F5F5F5;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .he h1 {
+    margin-left: 30px; }
+    .he h1 span {
+      color: #e27866; }
